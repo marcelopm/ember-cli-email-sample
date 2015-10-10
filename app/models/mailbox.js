@@ -2,7 +2,7 @@ import DS from "ember-data";
 
 var Mailbox = DS.Model.extend({
     name: DS.attr('string'),
-    messages: DS.hasMany('message', { async: true })
+    messages: DS.hasMany('message', {async: true})
 });
 
 Mailbox.reopenClass({

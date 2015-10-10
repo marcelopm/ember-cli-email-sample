@@ -3,18 +3,14 @@
     <ul>
         <li><h2>Mailboxes</h2></li>
         {{#each model as |box|}}
-        <li>
-            {{#link-to "mailbox" box}}
-            <span class="count">
-                {{box.messages.length}}
-            </span>
-            {{box.name}}
-            {{/link-to}}
-        </li>
-        {{else}}
-        <li>
-            Sorry, nobody is here.
-        </li>
+            <li>
+                {{#link-to "mailbox" box}}
+                    <span class="count">
+                        {{box.messages.length}}
+                    </span>
+                    {{box.name}}
+                {{/link-to}}
+            </li>
         {{/each}}
     </ul>
 </aside>

@@ -168,7 +168,7 @@ pre .tex .formula {
 	border-bottom:none
 }
 #content .example-highlight,#subcontent .example-highlight {
-	background-image:url("/images/code_background.gif");
+	background-image:url("http://www.emberjs.com/images/code_background.gif");
 	-moz-box-shadow:0 1px #fff,inset -1px 1px 4px rgba(0,0,0,0.1);
 	-webkit-box-shadow:0 1px #fff,inset -1px 1px 4px rgba(0,0,0,0.1);
 	box-shadow:0 1px #fff,inset -1px 1px 4px rgba(0,0,0,0.1);
@@ -180,7 +180,7 @@ pre .tex .formula {
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	#content .example-highlight,#subcontent .example-highlight {
-		background-image:url("/images/code_background_x2.gif");
+		background-image:url("http://www.emberjs.com/images/code_background_x2.gif");
 		background-size:2px 1px
 	}
 }
@@ -188,11 +188,11 @@ pre .tex .formula {
 	margin:17px auto;
 	width:80px;
 	height:38px;
-	background-image:url("/images/about/example-arrow.png")
+	background-image:url("http://www.emberjs.com/images/about/example-arrow.png")
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	.example-arrow {
-		background-image:url("/images/about/example-arrow_x2.png");
+		background-image:url("http://www.emberjs.com/images/about/example-arrow_x2.png");
 		background-size:80px 38px
 	}
 }
@@ -628,11 +628,11 @@ body.about .tabs ul,body.index .tabs ul {
 	height:170px;
 	text-decoration:none !important;
 	text-indent:-99999px;
-	background-image:url("/images/about/job-board-banner.png")
+	background-image:url("http://www.emberjs.com/images/about/job-board-banner.png")
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	.job-board-banner {
-		background-image:url("/images/about/job-board-banner_x2.png");
+		background-image:url("http://www.emberjs.com/images/about/job-board-banner_x2.png");
 		background-size:125px 170px
 	}
 }
@@ -641,8 +641,8 @@ body.about .tabs ul,body.index .tabs ul {
 }
 body.index,body.about {
 	background:no-repeat top center #faf4f1;
-	background-image:url("/images/background-shades.png");
-	background-image:url("/images/background-shades.svg"),none
+	background-image:url("http://www.emberjs.com/images/background-shades.png");
+	background-image:url("http://www.emberjs.com/images/background-shades.svg"),none
 }
 @media screen and (min-width: 2000px) {
 	body.index,body.about {
@@ -664,35 +664,35 @@ body.index .feature p,body.about .feature p {
 	}
 }
 body.index .feature .handlebars,body.about .feature .handlebars {
-	background-image:url("/images/about/ember-handlebars-sm.png");
+	background-image:url("http://www.emberjs.com/images/about/ember-handlebars-sm.png");
 	width:221px;
 	height:177px
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	body.index .feature .handlebars,body.about .feature .handlebars {
-		background-image:url("/images/about/ember-handlebars-sm_x2.png");
+		background-image:url("http://www.emberjs.com/images/about/ember-handlebars-sm_x2.png");
 		background-size:221px 177px
 	}
 }
 body.index .feature .structure,body.about .feature .structure {
-	background-image:url("/images/about/ember-structure-sm.png");
+	background-image:url("http://www.emberjs.com/images/about/ember-structure-sm.png");
 	width:193px;
 	height:184px
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	body.index .feature .structure,body.about .feature .structure {
-		background-image:url("/images/about/ember-structure-sm_x2.png");
+		background-image:url("http://www.emberjs.com/images/about/ember-structure-sm_x2.png");
 		background-size:193px 184px
 	}
 }
 body.index .feature .productivity,body.about .feature .productivity {
-	background-image:url("/images/about/ember-productivity-sm.png");
+	background-image:url("http://www.emberjs.com/images/about/ember-productivity-sm.png");
 	width:221px;
 	height:184px
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	body.index .feature .productivity,body.about .feature .productivity {
-		background-image:url("/images/about/ember-productivity-sm_x2.png");
+		background-image:url("http://www.emberjs.com/images/about/ember-productivity-sm_x2.png");
 		background-size:221px 184px
 	}
 }
@@ -747,11 +747,11 @@ body.guides h1,body.blog h1,body.api h1 {
 	color:#e1563f;
 	padding:0px 0px 3.5em 2em;
 	background:no-repeat top left;
-	background-image:url("/images/chapter-mark.png")
+	background-image:url("http://www.emberjs.com/images/chapter-mark.png")
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	body.guides h1,body.blog h1,body.api h1 {
-		background-image:url("/images/chapter-mark_x2.png");
+		background-image:url("http://www.emberjs.com/images/chapter-mark_x2.png");
 		background-size:12px 24px
 	}
 }
@@ -868,7 +868,7 @@ article.blog-post .note::before {
 	float:right
 }
 #builds-application .tiny-beta-image {
-	background-image:url("/images/builds/tiny_beta.png");
+	background-image:url("http://www.emberjs.com/images/builds/tiny_beta.png");
 	width:48px;
 	height:64px;
 	margin:0 auto;
@@ -878,19 +878,19 @@ article.blog-post .note::before {
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	#builds-application .tiny-beta-image {
-		background-image:url("/images/builds/tiny_beta_x2.png");
+		background-image:url("http://www.emberjs.com/images/builds/tiny_beta_x2.png");
 		background-size:48px 64px
 	}
 }
 #builds-application .small-release-image {
-	background-image:url("/images/builds/small_release.png");
+	background-image:url("http://www.emberjs.com/images/builds/small_release.png");
 	width:99px;
 	height:132px;
 	margin:0 auto
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	#builds-application .small-release-image {
-		background-image:url("/images/builds/small_release_x2.png");
+		background-image:url("http://www.emberjs.com/images/builds/small_release_x2.png");
 		background-size:99px 132px
 	}
 }
@@ -933,38 +933,38 @@ article.blog-post .note::before {
 	font-weight:bolder
 }
 #builds-application .feature .release {
-	background-image:url("/images/builds/release.png");
+	background-image:url("http://www.emberjs.com/images/builds/release.png");
 	width:198px;
 	height:263px;
 	margin:0 auto
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	#builds-application .feature .release {
-		background-image:url("/images/builds/release_x2.png");
+		background-image:url("http://www.emberjs.com/images/builds/release_x2.png");
 		background-size:198px 263px
 	}
 }
 #builds-application .feature .beta {
-	background-image:url("/images/builds/beta.png");
+	background-image:url("http://www.emberjs.com/images/builds/beta.png");
 	width:198px;
 	height:263px;
 	margin:0 auto
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	#builds-application .feature .beta {
-		background-image:url("/images/builds/beta_x2.png");
+		background-image:url("http://www.emberjs.com/images/builds/beta_x2.png");
 		background-size:198px 263px
 	}
 }
 #builds-application .feature .canary {
-	background-image:url("/images/builds/canary.png");
+	background-image:url("http://www.emberjs.com/images/builds/canary.png");
 	width:198px;
 	height:263px;
 	margin:0 auto
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	#builds-application .feature .canary {
-		background-image:url("/images/builds/canary_x2.png");
+		background-image:url("http://www.emberjs.com/images/builds/canary_x2.png");
 		background-size:198px 263px
 	}
 }
@@ -1155,38 +1155,38 @@ article.blog-post .note::before {
 	margin-left:20px
 }
 .dashboard td.beta {
-	background-image:url("/images/builds/tiny_beta.png")
+	background-image:url("http://www.emberjs.com/images/builds/tiny_beta.png")
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	.dashboard td.beta {
-		background-image:url("/images/builds/tiny_beta_x2.png");
+		background-image:url("http://www.emberjs.com/images/builds/tiny_beta_x2.png");
 		background-size:48px 64px
 	}
 }
 .dashboard td.release {
-	background-image:url("/images/builds/small_release.png")
+	background-image:url("http://www.emberjs.com/images/builds/small_release.png")
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	.dashboard td.release {
-		background-image:url("/images/builds/small_release_x2.png");
+		background-image:url("http://www.emberjs.com/images/builds/small_release_x2.png");
 		background-size:99px 132px
 	}
 }
 .dashboard td.canary {
-	background-image:url("/images/builds/canary.png")
+	background-image:url("http://www.emberjs.com/images/builds/canary.png")
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	.dashboard td.canary {
-		background-image:url("/images/builds/canary_x2.png");
+		background-image:url("http://www.emberjs.com/images/builds/canary_x2.png");
 		background-size:198px 263px
 	}
 }
 .dashboard td.planning {
-	background-image:url("/images/builds/blueprint.png")
+	background-image:url("http://www.emberjs.com/images/builds/blueprint.png")
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	.dashboard td.planning {
-		background-image:url("/images/builds/blueprint_x2.png");
+		background-image:url("http://www.emberjs.com/images/builds/blueprint_x2.png");
 		background-size:186px 277px
 	}
 }
@@ -1198,14 +1198,14 @@ article.blog-post .note::before {
 	padding-right:50px
 }
 .dashboard .small-release-image {
-	background-image:url("/images/builds/small_release.png");
+	background-image:url("http://www.emberjs.com/images/builds/small_release.png");
 	width:99px;
 	height:132px;
 	margin:0 auto
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	.dashboard .small-release-image {
-		background-image:url("/images/builds/small_release_x2.png");
+		background-image:url("http://www.emberjs.com/images/builds/small_release_x2.png");
 		background-size:99px 132px
 	}
 }
@@ -1233,7 +1233,7 @@ code {
 	overflow:auto
 }
 #content .highlight,#subcontent .highlight {
-	background-image:url("/images/code_background.gif");
+	background-image:url("http://www.emberjs.com/images/code_background.gif");
 	border:1px solid #d1d1d1;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
@@ -1250,7 +1250,7 @@ code {
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	#content .highlight,#subcontent .highlight {
-		background-image:url("/images/code_background_x2.gif");
+		background-image:url("http://www.emberjs.com/images/code_background_x2.gif");
 		background-size:2px 1px
 	}
 }
@@ -1593,7 +1593,7 @@ p {
 	padding:0px 0px 5px 15px;
 	padding-right:10px;
 	margin-left:10px;
-	background:no-repeat url("/images/search-icon.png")
+	background:no-repeat url("http://www.emberjs.com/images/search-icon.png")
 }
 #guide_search input:-webkit-input-placeholder {
 	font-style:italic
@@ -1609,7 +1609,7 @@ p {
 	font-style:normal
 }
 #guide_search button {
-	background:no-repeat url("/images/search-erase.png");
+	background:no-repeat url("http://www.emberjs.com/images/search-erase.png");
 	width:14px;
 	border:0px;
 	height:14px;
@@ -1625,7 +1625,7 @@ p {
 	top:0;
 	height:60px;
 	background:#e1563f top center;
-	background-image:url("/images/navigation_background.png");
+	background-image:url("http://www.emberjs.com/images/navigation_background.png");
 	border-bottom:1px solid #aa412f;
 	z-index:10;
 	-moz-box-shadow:rgba(0,0,0,0.3) 0 0 3px;
@@ -1634,7 +1634,7 @@ p {
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	#header {
-		background-image:url("/images/navigation_background_x2.png");
+		background-image:url("http://www.emberjs.com/images/navigation_background_x2.png");
 		background-size:480px 60px
 	}
 }
@@ -1652,7 +1652,7 @@ p {
 	top:6px;
 	width:103px;
 	height:40px;
-	background-image:url("/images/ember_logo.png");
+	background-image:url("http://www.emberjs.com/images/ember_logo.png");
 	-moz-transform:scale(1);
 	-ms-transform:scale(1);
 	-webkit-transform:scale(1);
@@ -1664,7 +1664,7 @@ p {
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	#header #logo {
-		background-image:url("/images/ember_logo_x2.png");
+		background-image:url("http://www.emberjs.com/images/ember_logo_x2.png");
 		background-size:103px 42px
 	}
 }
@@ -1785,7 +1785,7 @@ p {
 	position:relative
 }
 #content-wrapper.grid {
-	background-image:url("/images/grid.png")
+	background-image:url("http://www.emberjs.com/images/grid.png")
 }
 #content.has-sidebar,.has-sidebar#subcontent {
 	margin:38px 0 90px 2.1em;
@@ -1820,11 +1820,11 @@ p {
 	white-space:nowrap;
 	text-indent:100%;
 	border-bottom:none;
-	background-image:url("/images/about/header-text.png")
+	background-image:url("http://www.emberjs.com/images/about/header-text.png")
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	.about-header-text {
-		background-image:url("/images/about/header-text_x2.png");
+		background-image:url("http://www.emberjs.com/images/about/header-text_x2.png");
 		background-size:534px 107px
 	}
 }
@@ -1919,7 +1919,7 @@ p {
 	box-shadow:inset 0 1px 2px rgba(0,0,0,0.1),0 1px 0 #fff;
 	overflow:hidden;
 	*zoom:1;
-	background:url("/images/about/carousel_bg.png");
+	background:url("http://www.emberjs.com/images/about/carousel_bg.png");
 	border:1px solid #d1d1d1
 }
 #content .users.section .surround a:hover,#subcontent .users.section .surround a:hover {
@@ -1933,14 +1933,14 @@ p {
 }
 #content .users.section .surround .bx-wrapper .bx-prev,#subcontent .users.section .surround .bx-wrapper .bx-prev,#content .users.section .surround .bx-wrapper .bx-next,#subcontent .users.section .surround .bx-wrapper .bx-next {
 	background:no-repeat;
-	background-image:url("/images/about/carousel_controls.png");
+	background-image:url("http://www.emberjs.com/images/about/carousel_controls.png");
 	float:left;
 	height:28px;
 	width:30px
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	#content .users.section .surround .bx-wrapper .bx-prev,#subcontent .users.section .surround .bx-wrapper .bx-prev,#content .users.section .surround .bx-wrapper .bx-next,#subcontent .users.section .surround .bx-wrapper .bx-next {
-		background-image:url("/images/about/carousel_controls_x2.png");
+		background-image:url("http://www.emberjs.com/images/about/carousel_controls_x2.png");
 		background-size:58px 28px
 	}
 }
@@ -1971,7 +1971,7 @@ p {
 	overflow:hidden;
 	*zoom:1;
 	background:bottom repeat-x #f4f4f4;
-	background-image:url("/images/about/carousel_pager_bg.png");
+	background-image:url("http://www.emberjs.com/images/about/carousel_pager_bg.png");
 	border-left:1px solid #fafafa;
 	border-right:1px solid #fafafa;
 	border-top:1px solid #fefefe;
@@ -1984,13 +1984,13 @@ p {
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	#content .users.section .surround .bx-wrapper .bx-pager,#subcontent .users.section .surround .bx-wrapper .bx-pager {
-		background-image:url("/images/about/carousel_pager_bg_x2.png");
+		background-image:url("http://www.emberjs.com/images/about/carousel_pager_bg_x2.png");
 		background-size:1px 27px
 	}
 }
 #content .users.section .surround .bx-wrapper .bx-pager .pager-link,#subcontent .users.section .surround .bx-wrapper .bx-pager .pager-link {
 	background:0 0 no-repeat;
-	background-image:url("/images/about/carousel_dots.png");
+	background-image:url("http://www.emberjs.com/images/about/carousel_dots.png");
 	height:11px;
 	width:10px;
 	margin-left:10px;
@@ -1998,7 +1998,7 @@ p {
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	#content .users.section .surround .bx-wrapper .bx-pager .pager-link,#subcontent .users.section .surround .bx-wrapper .bx-pager .pager-link {
-		background-image:url("/images/about/carousel_dots_x2.png");
+		background-image:url("http://www.emberjs.com/images/about/carousel_dots_x2.png");
 		background-size:32px 11px
 	}
 }
@@ -2028,7 +2028,7 @@ p {
 	-moz-box-shadow:0 1px 2px rgba(0,0,0,0.1);
 	-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.1);
 	box-shadow:0 1px 2px rgba(0,0,0,0.1);
-	background:url("/images/about/user_bg.png") no-repeat;
+	background:url("http://www.emberjs.com/images/about/user_bg.png") no-repeat;
 	display:block;
 	height:103px;
 	margin-left:20px;
@@ -2132,7 +2132,7 @@ a.toc-anchor {
 	left:-1em;
 	width:30px;
 	height:13px;
-	background:url("/images/link.png") no-repeat;
+	background:url("http://www.emberjs.com/images/link.png") no-repeat;
 	background-size:18px 9px;
 	left:-22px;
 	opacity:0.5;
@@ -2274,31 +2274,31 @@ body.community #content .section .image,body.community #subcontent .section .ima
 	height:142px
 }
 body.community #content .section.contribute .image,body.community #subcontent .section.contribute .image {
-	background-image:url("/images/community/give.png")
+	background-image:url("http://www.emberjs.com/images/community/give.png")
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	body.community #content .section.contribute .image,body.community #subcontent .section.contribute .image {
-		background-image:url("/images/community/give_x2.png");
+		background-image:url("http://www.emberjs.com/images/community/give_x2.png");
 		background-size:220px 142px
 	}
 }
 body.community #content .section.help .image,body.community #subcontent .section.help .image {
-	background-image:url("/images/community/sos.png")
+	background-image:url("http://www.emberjs.com/images/community/sos.png")
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	body.community #content .section.help .image,body.community #subcontent .section.help .image {
-		background-image:url("/images/community/sos_x2.png");
+		background-image:url("http://www.emberjs.com/images/community/sos_x2.png");
 		background-size:220px 142px
 	}
 }
 body.community #content .section.bugs .image,body.community #subcontent .section.bugs .image {
-	background-image:url("/images/community/bug.png");
+	background-image:url("http://www.emberjs.com/images/community/bug.png");
 	float:right;
 	margin:0 0 15px 20px
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	body.community #content .section.bugs .image,body.community #subcontent .section.bugs .image {
-		background-image:url("/images/community/bug_x2.png");
+		background-image:url("http://www.emberjs.com/images/community/bug_x2.png");
 		background-size:220px 142px
 	}
 }
@@ -2312,7 +2312,7 @@ body.community #content .section.meetup h2,body.community #subcontent .section.m
 	line-height:1.2
 }
 body.community #content .section.meetup .image,body.community #subcontent .section.meetup .image {
-	background-image:url("/images/community/meetup.png");
+	background-image:url("http://www.emberjs.com/images/community/meetup.png");
 	background-position:center top;
 	float:none;
 	margin:0 0 15px 20px;
@@ -2322,7 +2322,7 @@ body.community #content .section.meetup .image,body.community #subcontent .secti
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	body.community #content .section.meetup .image,body.community #subcontent .section.meetup .image {
-		background-image:url("/images/community/meetup_x2.png");
+		background-image:url("http://www.emberjs.com/images/community/meetup_x2.png");
 		background-size:221px 185px
 	}
 }
@@ -2339,7 +2339,7 @@ body.community #content .section.learn h2,body.community #subcontent .section.le
 	line-height:1.2
 }
 body.community #content .section.learn .image,body.community #subcontent .section.learn .image {
-	background-image:url("/images/community/campster.png");
+	background-image:url("http://www.emberjs.com/images/community/campster.png");
 	background-position:center top;
 	float:none;
 	width:201px;
@@ -2348,7 +2348,7 @@ body.community #content .section.learn .image,body.community #subcontent .sectio
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	body.community #content .section.learn .image,body.community #subcontent .section.learn .image {
-		background-image:url("/images/community/campster_x2.png");
+		background-image:url("http://www.emberjs.com/images/community/campster_x2.png");
 		background-size:201px 179px
 	}
 }
@@ -2482,7 +2482,7 @@ body.community_meetups #content .list ul li,body.community_meetups #subcontent .
 	padding:0
 }
 body.community_meetups #content .list ul li:before,body.community_meetups #subcontent .list ul li:before {
-	background-image:url("/images/meetups/map-pin.png");
+	background-image:url("http://www.emberjs.com/images/meetups/map-pin.png");
 	background-size:9px auto;
 	width:9px;
 	height:12px;
@@ -2500,7 +2500,7 @@ body.community_meetups #content .list ul a.active,body.community_meetups #subcon
 	font-weight:bold
 }
 body.community_meetups #content .start .image,body.community_meetups #subcontent .start .image {
-	background-image:url("/images/community/meetup.png");
+	background-image:url("http://www.emberjs.com/images/community/meetup.png");
 	background-position:center top;
 	float:left;
 	width:221px;
@@ -2509,7 +2509,7 @@ body.community_meetups #content .start .image,body.community_meetups #subcontent
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	body.community_meetups #content .start .image,body.community_meetups #subcontent .start .image {
-		background-image:url("/images/community/meetup_x2.png");
+		background-image:url("http://www.emberjs.com/images/community/meetup_x2.png");
 		background-size:221px 185px
 	}
 }
@@ -2552,14 +2552,14 @@ body.community_resources #content .surround .bx-wrapper,body.community_resources
 }
 body.community_resources #content .surround .bx-wrapper .bx-prev,body.community_resources #subcontent .surround .bx-wrapper .bx-prev,body.community_resources #content .surround .bx-wrapper .bx-next,body.community_resources #subcontent .surround .bx-wrapper .bx-next {
 	background:no-repeat;
-	background-image:url("/images/about/carousel_controls.png");
+	background-image:url("http://www.emberjs.com/images/about/carousel_controls.png");
 	float:left;
 	height:220px;
 	width:30px
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	body.community_resources #content .surround .bx-wrapper .bx-prev,body.community_resources #subcontent .surround .bx-wrapper .bx-prev,body.community_resources #content .surround .bx-wrapper .bx-next,body.community_resources #subcontent .surround .bx-wrapper .bx-next {
-		background-image:url("/images/about/carousel_controls_x2.png");
+		background-image:url("http://www.emberjs.com/images/about/carousel_controls_x2.png");
 		background-size:58px 28px
 	}
 }
@@ -2595,7 +2595,7 @@ body.community_resources #content .surround .bx-wrapper .bx-pager,body.community
 }
 body.community_resources #content .surround .bx-wrapper .bx-pager .pager-link,body.community_resources #subcontent .surround .bx-wrapper .bx-pager .pager-link {
 	background:0 0 no-repeat;
-	background-image:url("/images/about/carousel_dots.png");
+	background-image:url("http://www.emberjs.com/images/about/carousel_dots.png");
 	height:11px;
 	width:10px;
 	margin-left:10px;
@@ -2603,7 +2603,7 @@ body.community_resources #content .surround .bx-wrapper .bx-pager .pager-link,bo
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	body.community_resources #content .surround .bx-wrapper .bx-pager .pager-link,body.community_resources #subcontent .surround .bx-wrapper .bx-pager .pager-link {
-		background-image:url("/images/about/carousel_dots_x2.png");
+		background-image:url("http://www.emberjs.com/images/about/carousel_dots_x2.png");
 		background-size:32px 11px
 	}
 }
@@ -2692,7 +2692,7 @@ body.security #content,body.security #subcontent {
 	margin-left:auto
 }
 #showcase td a {
-	background-image:url("/images/about/user_bg.png");
+	background-image:url("http://www.emberjs.com/images/about/user_bg.png");
 	display:block;
 	height:103px;
 	width:210px
@@ -3171,7 +3171,7 @@ body.tomster_commission #content .section,body.tomster_commission #subcontent .s
 	text-shadow:rgba(0,0,0,0.2) 0 -1px 0
 }
 .button.black {
-	background-image:url("/images/black_buttons.png")
+	background-image:url("http://www.emberjs.com/images/black_buttons.png")
 }
 .button.black:hover {
 	background-position:0 -46px;
@@ -3192,10 +3192,10 @@ body.tomster_commission #content .section,body.tomster_commission #subcontent .s
 	text-shadow:rgba(0,0,0,0.3) 0 1px 0
 }
 .small-button.orange {
-	background-image:url("/images/small-orange-button.png")
+	background-image:url("http://www.emberjs.com/images/small-orange-button.png")
 }
 .small-button.black {
-	background-image:url("/images/small-black-button.png")
+	background-image:url("http://www.emberjs.com/images/small-black-button.png")
 }
 .button-hero {
 	margin:30px auto
@@ -3234,7 +3234,7 @@ a.edit-page:hover {
 	left:-1em;
 	width:30px;
 	height:13px;
-	background:url("/images/link.png") no-repeat;
+	background:url("http://www.emberjs.com/images/link.png") no-repeat;
 	background-size:18px 9px;
 	left:-19px;
 	opacity:0.5;
@@ -3385,7 +3385,7 @@ a.edit-page:hover {
 	color:#e1563f;
 	padding:0px 0px 1em 2em;
 	margin-bottom:1.5em;
-	background:no-repeat url("/images/ember-construction-57.png") 0.5em 0.5em
+	background:no-repeat url("http://www.emberjs.com/images/ember-construction-57.png") 0.5em 0.5em
 }
 .under_construction_warning h3 .msg {
 	text-transform:none;
@@ -3400,7 +3400,7 @@ a.edit-page:hover {
 }
 .brand-logo>img {
 	width:300px;
-	background-image:url("/images/brand/brand-bg.png");
+	background-image:url("http://www.emberjs.com/images/brand/brand-bg.png");
 	border:1px solid #cccccc;
 	margin-top:10px
 }
@@ -3409,7 +3409,7 @@ a.edit-page:hover {
 }
 .brand-small>img {
 	width:150px;
-	background-image:url("/images/brand/brand-bg.png");
+	background-image:url("http://www.emberjs.com/images/brand/brand-bg.png");
 	border:1px solid #cccccc;
 	margin-top:10px
 }
@@ -3449,7 +3449,7 @@ body.guides .highlight {
 	color:#222
 }
 #content .highlight,#subcontent .highlight {
-	background-image:url("/images/code_background.gif");
+	background-image:url("http://www.emberjs.com/images/code_background.gif");
 	-moz-box-shadow:0 1px #fff,inset -1px 1px 4px rgba(0,0,0,0.1);
 	-webkit-box-shadow:0 1px #fff,inset -1px 1px 4px rgba(0,0,0,0.1);
 	box-shadow:0 1px #fff,inset -1px 1px 4px rgba(0,0,0,0.1);
@@ -3461,7 +3461,7 @@ body.guides .highlight {
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	#content .highlight,#subcontent .highlight {
-		background-image:url("/images/code_background_x2.gif");
+		background-image:url("http://www.emberjs.com/images/code_background_x2.gif");
 		background-size:2px 1px
 	}
 }
@@ -3479,29 +3479,29 @@ body.guides .highlight {
 	height:20px
 }
 #content .highlight.javascript .ribbon,#subcontent .highlight.javascript .ribbon,#content .highlight.js .ribbon,#subcontent .highlight.js .ribbon {
-	background-image:url("/images/js-ribbon.png")
+	background-image:url("http://www.emberjs.com/images/js-ribbon.png")
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	#content .highlight.javascript .ribbon,#subcontent .highlight.javascript .ribbon,#content .highlight.js .ribbon,#subcontent .highlight.js .ribbon {
-		background-image:url("/images/js-ribbon_x2.png");
+		background-image:url("http://www.emberjs.com/images/js-ribbon_x2.png");
 		background-size:52px 20px
 	}
 }
 #content .highlight.html .ribbon,#subcontent .highlight.html .ribbon {
-	background-image:url("/images/html-ribbon.png")
+	background-image:url("http://www.emberjs.com/images/html-ribbon.png")
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	#content .highlight.html .ribbon,#subcontent .highlight.html .ribbon {
-		background-image:url("/images/html-ribbon_x2.png");
+		background-image:url("http://www.emberjs.com/images/html-ribbon_x2.png");
 		background-size:52px 20px
 	}
 }
 #content .highlight.handlebars .ribbon,#subcontent .highlight.handlebars .ribbon {
-	background-image:url("/images/handlebars-ribbon.png")
+	background-image:url("http://www.emberjs.com/images/handlebars-ribbon.png")
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
 	#content .highlight.handlebars .ribbon,#subcontent .highlight.handlebars .ribbon {
-		background-image:url("/images/handlebars-ribbon_x2.png");
+		background-image:url("http://www.emberjs.com/images/handlebars-ribbon_x2.png");
 		background-size:52px 20px
 	}
 }
