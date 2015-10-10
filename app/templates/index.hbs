@@ -1,0 +1,18 @@
+<div class="index">
+    <h1>TomsterMail</h1>
+    <span class="tomster"></span>
+    {{#each mailbox as |box|}}
+    <li>
+        {{#link-to "mailbox" box current-when="box"}}
+        <span class="count">
+            {{box.messages.length}}
+        </span>
+        {{box.name}}
+        {{/link-to}}
+    </li>
+    {{else}}
+    <li>
+        Sorry, nobody is here.
+    </li>
+    {{/each}}
+</div>
