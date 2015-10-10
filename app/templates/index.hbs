@@ -1,9 +1,9 @@
 <div class="index">
     <h1>TomsterMail</h1>
     <span class="tomster"></span>
-    {{#each mailbox as |box|}}
+    {{#each model as |box|}}
     <li>
-        {{#link-to "mailbox" box current-when="box"}}
+        {{#link-to "mailbox" box}}
         <span class="count">
             {{box.messages.length}}
         </span>
